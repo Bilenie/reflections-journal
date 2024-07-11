@@ -1,0 +1,129 @@
+/* All the common properties of the form and blog page coded here */
+/* The variables for the color and font family */
+:root{
+--black : black;
+--white: whitesmoke;
+--gray: rgb(80, 78, 78);
+--dark: #333;
+--border:#6e6e6e;
+--hover: #52565a;
+--purple:rgb(71, 63, 119);
+--yellow:rgb(241, 153, 20);
+--yellow2:rgb(121, 95, 48);
+--font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* properties of the body */
+body {
+    font-family: var(--font);
+    background-color: #fff;
+    color: #333;
+    margin:  40px ;
+    border-radius: 30px;
+    border:  3px solid rgb(80, 78, 78);
+    border-bottom: 8px double rgb(80, 78, 78);
+    border-top: 8px double rgb(80, 78, 78);
+  }
+  /* properties of the header in the body */
+  header {
+    display: flex;
+    flex-direction: row;
+    margin: 3px 5px 0px 5px;
+    border-bottom: 10px double  black;
+    padding:15px;
+  }
+  /* properties of the checked emoji */
+  .mode-emoji{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: auto;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
+  /* ******properties of the main part of the body ******* */
+  .main{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100vh;
+  }
+/* properties of the container of the rounded colorfull title & h1 */
+#bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+/* properties of the rounded colorfull background */
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font);
+    width: 600PX;
+    height:600px;
+    color:var(--white);
+    border-radius: 50%;
+    background:linear-gradient(var(--yellow),var(--yellow2))
+    }
+
+   /************************************************************ */
+/* Properties of dark mode when the emoji is changed */
+/* dark mode of the submit form */
+.dark-mode{
+  background-color: var(--black);
+  color: var(--white);
+}
+.dark-mode .main{
+  background-color: var(--dark);
+  color:var(--white);
+}
+.dark-mode form input,
+.dark-mode form textarea{
+  background-color: var(--white);
+  color: var(--black);
+  border-color: var(--border);
+  border-width:2px ;
+}
+.dark-mode #title{
+background:linear-gradient(var(--white),var(--purple));
+}
+
+.dark-mode .table{
+  border-left: 15px solid var(--border);
+}
+.dark-mode header{
+  border-bottom: 15px solid var(--border);
+}
+.dark-mode form button{
+  /* border: 2px solid var(--border); */
+  box-shadow:3px 0px 5px var(--border);
+}
+
+/* dark mode for the blog post. */
+.dark-mode #post-list{
+  background-color: var(--dark);
+  border: 2px solid var(--border);
+
+}
+.dark-mode #head{
+  background-color: var(--black);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  color:var(--white)
+}
