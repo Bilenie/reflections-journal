@@ -29,9 +29,9 @@ N/A
 4. Toggle between light mode and dark mode using the toggle switch in the header.
 5. Click the "Back" button on the posts page to return to the landing page for more entries.
 
-![Landing Page](https://bilenie.github.io/reflections-journal/)
+Landing Page-(https://bilenie.github.io/reflections-journal/)
 
-![Posts Page](file:///C:/Users/bilum/OneDrive/Desktop/SMU/Homework/reflections-journal/blog.html)
+Posts Page-(file:///C:/Users/bilum/OneDrive/Desktop/SMU/Homework/reflections-journal/blog.html)
 
 The deployed web pages should resemble the screenshots above in terms of formatting and structure.
 ![form page](./assets/images/100-web-apis-challenge-demo.gif)
