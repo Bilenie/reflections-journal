@@ -4,25 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog Posts</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/blog.css">
 </head>
-<body id="head">
+<body class="head">
   
     <header >
-      <h1 id="write">My First Blog</h1>
+      <h1  id="write">My First Blog</h1>
       <div class="mode-emoji">
-        <button id="back-button"><a href="./index.html" >Back</a></button>
+        <a href="./index.html" >
+          <button id="back-button"><span class="material-symbols-outlined">arrow_back </span> 
+          <span class="material-symbols-outlined">back</span></button>
+        </a>
         <input type="checkbox" id="mode-toggle" class="visually-hidden">
         <label for="mode-toggle">
-          <span id="mode-icon" class="emoji-checkbox">🌙</span>
+          <span id="mode-icon" class="emoji-checkbox">🌞</span>
         </label>
       </div>
     </header>
     
     <main id="posts-list"> </main>
     
-    <footer>
+    <footer id="foot">
       <p> <strong> Made with ❤️ by  Bilenie </strong> </p>
       <ul>
         <li><strong>Portfolio</strong>:Bilenie</li>

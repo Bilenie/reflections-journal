@@ -23,15 +23,15 @@ N/A
 
 ## Usage
 
-1. Open the deployed URL in your web browser: [Live URL](https://your-live-url.com).
+1. Open the deployed URL in your web browser: [Live URL](https://bilenie.github.io/reflections-journal/).
 2. Fill out the form on the landing page to submit a new blog post.
 3. Navigate to the posts page to view submitted blog posts.
 4. Toggle between light mode and dark mode using the toggle switch in the header.
 5. Click the "Back" button on the posts page to return to the landing page for more entries.
 
-![Landing Page](screenshots/landing-page.png)
+![Landing Page](https://bilenie.github.io/reflections-journal/)
 
-![Posts Page](screenshots/posts-page.png)
+![Posts Page](https://bilenie.github.io/reflections-journal/blog.html)
 
 The deployed web pages should resemble the screenshots above in terms of formatting and structure.
 ![form page](./assets/images/100-web-apis-challenge-demo.gif)

@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
   modeToggle.addEventListener('change', function() {
     if (modeToggle.checked) {
       document.body.classList.add('dark-mode');
-      modeIcon.textContent = '🌞'; // Emoji for crescent moon (dark mode)
+      modeIcon.textContent = '🌙'; // Emoji for crescent moon (dark mode)
     } else {
       document.body.classList.remove('dark-mode');
-      modeIcon.textContent = '🌙'; // Emoji for sun (light mode)
+      modeIcon.textContent = '🌞'; // Emoji for sun (light mode)
     }
   });
 
