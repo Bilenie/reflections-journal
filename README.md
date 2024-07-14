@@ -31,13 +31,13 @@ N/A
 
 ![Landing Page](https://bilenie.github.io/reflections-journal/)
 
-![Posts Page](https://bilenie.github.io/reflections-journal/blog.html)
+![Posts Page](file:///C:/Users/bilum/OneDrive/Desktop/SMU/Homework/reflections-journal/blog.html)
 
 The deployed web pages should resemble the screenshots above in terms of formatting and structure.
 ![form page](./assets/images/100-web-apis-challenge-demo.gif)
 ## Credit
 
-Thanks to my instructors, TA, and classmates for their support and feedback during the development of this project.
+Thanks to my instructors, TA, Tutor, and classmates for their support and feedback during the development of this project.
 
 ## License
 
