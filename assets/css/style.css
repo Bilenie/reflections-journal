@@ -82,7 +82,12 @@ body {
     border-radius: 50%;
     background:linear-gradient(var(--yellow),var(--yellow2))
     }
-
+    #posts-list {
+      flex: 1; /* Main content area fills remaining space */
+      overflow-y: auto; /* Enable scrolling if content overflows */
+      padding: 10px;
+      height: 100vh;
+    }
    /************************************************************ */
 /* Properties of dark mode when the emoji is changed */
 /* dark mode of the submit form */
