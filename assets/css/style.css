@@ -29,7 +29,7 @@ body {
     flex-direction: row;
     margin: 3px 5px 0px 5px;
     border-bottom: 10px double  black;
-    padding:15px;
+    padding:20px;
   }
   /* properties of the checked emoji */
   .mode-emoji{
@@ -58,7 +58,7 @@ body {
     align-items: center;
     /* margin-bottom: 40px; */
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
 /* properties of the container of the rounded colorfull title & h1 */
 #bg{
