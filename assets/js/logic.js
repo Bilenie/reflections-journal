@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
   const modeToggle = document.getElementById('mode-toggle');
   const modeIcon = document.getElementById('mode-icon');
 
@@ -18,5 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.classList.add('dark-mode');
     modeIcon.textContent = '🌙';
     modeToggle.checked = true;
-  }
-});
+  };

@@ -1,9 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
+
   const postsList = document.getElementById('posts-list');
 // This line selects an element with the id posts-list from the HTML document and assigns it to the variable postsList
   function renderPosts(){
-    // postsList.innerHTML = '';
-
+  
     const posts = JSON.parse(localStorage.getItem('posts')) || [];
 // This declares a function renderPosts() which is responsible for rendering posts. It retrieves posts data from the browser's localStorage using the key 'posts'. 
 // If no posts are found (localStorage.getItem('posts') returns null), it assigns an empty array [] to posts.
@@ -30,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
       postElement.appendChild(authorElement);
 
       postsList.appendChild(postElement);
-      // ppends the titleElement, contentElement, and authorElement as child elements to postElement (div that represents a post
+      // Appends the titleElement, contentElement, and authorElement as child elements to postElement (div that represents a post
     });
   }
 
   renderPosts();
-});
+

@@ -1,5 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-  // Wait for the DOM content to be fully loaded before executing the script
 
   const blogForm = document.getElementById('blog-form');
   const usernameInput = document.getElementById('username');
@@ -9,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Retrieve references to form elements and other necessary DOM elements
 
-  blogForm.addEventListener('click', function(event) {
+  const handleFormSubmit = function(event) {
     // Add an event listener for the form submission event
 
     event.preventDefault(); // Prevent the default form submission behavior
@@ -45,5 +43,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Redirect to posts page
     window.location.href = './blog.html';
     // Redirect the user to another page after successfully storing the blog post
-  });
-});
+  };
+blogForm.addEventListener('submit',handleFormSubmit);
