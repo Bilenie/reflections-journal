@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
   const postsList = document.getElementById('posts-list');
-
+// This line selects an element with the id posts-list from the HTML document and assigns it to the variable postsList
   function renderPosts(){
-    postsList.innerHTML = '';
-
-   
+    // postsList.innerHTML = '';
 
     const posts = JSON.parse(localStorage.getItem('posts')) || [];
+// This declares a function renderPosts() which is responsible for rendering posts. It retrieves posts data from the browser's localStorage using the key 'posts'. 
+// If no posts are found (localStorage.getItem('posts') returns null), it assigns an empty array [] to posts.
 
     posts.forEach((post, index) => {
       const postElement = document.createElement('div');
@@ -22,13 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const authorElement = document.createElement('h3');
       authorElement.textContent = `Posted by: ${post.username}`;
-      // authorElement.setAttribute('style','margin:10px; padding:10px');
+      // This iterates through each post in the posts array retrieved from localStorage. For each post, it creates a new div element (postElement) and adds a class post to it.
+      
 
       postElement.appendChild(titleElement);
       postElement.appendChild(contentElement);
       postElement.appendChild(authorElement);
 
       postsList.appendChild(postElement);
+      // ppends the titleElement, contentElement, and authorElement as child elements to postElement (div that represents a post
     });
   }
 

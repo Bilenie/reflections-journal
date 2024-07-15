@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Retrieve references to form elements and other necessary DOM elements
 
-  blogForm.addEventListener('submit', function(event) {
+  blogForm.addEventListener('click', function(event) {
     // Add an event listener for the form submission event
 
     event.preventDefault(); // Prevent the default form submission behavior
