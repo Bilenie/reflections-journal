@@ -33,7 +33,7 @@ Landing Page-(https://bilenie.github.io/reflections-journal/)
 
 Posts Page-(https://bilenie.github.io/reflections-journal/blog.html)
 
-The deployed web pages should resemble the screenshots above in terms of formatting and structure.
+The deployed web pages should resemble the screenshots below in terms of formatting and structure.
 ![form page](./assets/images/100-web-apis-challenge-demo.gif)
 ## Credit
 
