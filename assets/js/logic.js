@@ -13,14 +13,14 @@ modeToggle.addEventListener('change', function() {
 // Function to enable dark mode
 function enableDarkMode() {
   document.body.classList.add('dark-mode');
-  modeIcon.textContent = '🌙'; // Emoji for sun (light mode)
+  modeIcon.textContent = '🌙'; // Emoji for crescent moon (dark mode)
   localStorage.setItem('isDarkMode', true); // Store dark mode state
 }
 
 // Function to enable light mode
 function enableLightMode() {
   document.body.classList.remove('dark-mode');
-  modeIcon.textContent = '🌞'; // Emoji for crescent moon (dark mode)
+  modeIcon.textContent = '🌞'; // Emoji for sun (light mode)
   localStorage.setItem('isDarkMode', false); // Store light mode state
 }
 
